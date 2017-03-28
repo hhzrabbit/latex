@@ -80,10 +80,24 @@ You should put the packages to use in the preamble.
 
 A simple example of a package is \verb+\usepackage{color}+, which allows you to typeset in colors!
 
-Also, a very important set of packages created by the American Mathematical Society, includes \verb+\usepackage{amsmath}+ (which defines extra environments for multiline displayed equations, as well as a number of other enhancements for math), \verb+\usepackage{amssymb}+ (which provides a bunch of symbols), and \verb+\usepackage{amsthm}+ (provides the \verb+proof+ environment and the \verb+\newtheorem+ command).
+Also, a very important set of packages created by the American Mathematical Society, includes \verb+\usepackage{amsmath}+ (which defines extra environments for multiline displayed equations, as well as a number of other enhancements for math), \verb+\usepackage{amssymb}+ (which provides a bunch of symbols), and \verb+\usepackage{amsthm}+ (provides the \verb+proof+ environment and the \verb+\newtheorem+ command). A package you will need for the activity is the \verb+graphicx+ package, used to import images.
 
 \subsection{More useful things to know}
 \begin{enumerate}
+\item{Math}
+	\begin{itemize}
+    \item{LaTeX supports formatting for mathematical symbols and equations. In a LaTeX document, you must declare one of two math modes in order to utilize math commands.}
+    \item{In-line math mode is delimited by a singular dollar sign on either side. For example: \verb!$x^3 + \sqrt{4y^2} = 17$! generates $x^3+\sqrt{4y^2} = 17$, which is rendered in-line with the text}
+    \item{Display math mode is delimited by escaped brackets, \verb+\[+ and \verb+\]+. For example, \verb!\[x^3 + \sqrt{4y^2} = 17\]! generates \[ x^3 + \sqrt{4y^2} = 17 \] which is rendered on its own line.}
+    \item{Useful syntax for the activity:}
+    	\begin{itemize}
+    	\item{\verb+lim_{lower}+ limit symbol}
+        \item{\verb+\to+ arrow}
+        \item{\verb+\infty+ infinity symbol}
+        \item{\verb+\int_{lower}^{upper}+ integral symbol}
+        \item{\verb+frac{numerator}{denominator}+ fraction}
+    	\end{itemize}
+    \end{itemize}
 \item{Comments}
 	\begin{itemize}
 	\item{In TeX, anything following a \% sign in a line is commented out.} %wow look an example!
